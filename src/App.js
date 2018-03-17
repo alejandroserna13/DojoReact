@@ -97,7 +97,7 @@ class App extends Component {
 verificarSiHayGanador(baraja){
   //baraja.forEach((carta) => carta.fueAdivinada = true); //Para Verificar que funciona el método
   if (baraja.filter((carta) => !carta.fueAdivinada).length === 0) {
-    alert(`Ganaste en ${this.state.numeroDeIntentos} intentos`); 
+    alert(`Ganaste en ${this.state.numeroDeIntentos + 1} intentos`); 
   }
 }
 

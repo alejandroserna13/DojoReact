@@ -1,7 +1,7 @@
 import shuffle from 'lodash.shuffle';
 import FontAwesomeClasses from './fontAwesomeClasses';
 
-const NUMERO_DE_CARTAS = 300//constante con el numero de cartas
+const NUMERO_DE_CARTAS = 20//constante con el numero de cartas
 
 export default (params) =>  {
     const fontAwesomeClasses = FontAwesomeClasses();//va importar un array
